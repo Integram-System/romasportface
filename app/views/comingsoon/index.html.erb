@@ -1,0 +1,127 @@
+<!-- Preloader -->
+<div class="mask">
+  <div id="loader" class="rotating"></div>
+</div>
+<!--/Preloader -->
+
+<!--start wrapper -->
+<div class="wrapper">
+  <div class="overlay"></div>
+
+<div class="row">
+
+  <!--start logo -->
+  <div class="large-12 columns text-center">
+    <%= image_tag "logo.png", alt: "Logo" %><!-- change your logo here -->
+  </div>
+  <!-- end logo -->
+  
+  	<div class="large-5 columns large-centered">
+	</div>
+    
+  <div class="large-5 columns large-centered">
+
+    
+
+  </div>
+
+</div>
+
+  <!-- start section -->
+  <section class="main">
+
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="large-6 columns large-text-right small-text-center">
+          <h2 class="heading">'ROMA SPORT FACE' IS COMING SOON</h2>
+            <p>Abbiamo il piacere di annunciare il rilascio del nostro website. <br>Il sito è stato progettato con un nuovo look e una navigazione user-friendly, aggiornato agli ultimi eventi. Potrai trovare sul sito tutte le informazioni sul mondo dello sport, partendo da Roma e arrivando in ogni parte del mondo per commentare tutti gli eventi sportivi più importanti. </p>
+            <p> -- </p>
+        </div>
+        <div class="large-6 columns large-text-left small-text-center">
+          <p class="heading bold">TEMPO CHE RIMANE AL LANCIO:</p>
+
+            <!-- start timer, reference to js/countdown.js for change date -->
+            <div id="timer"></div>
+            <!-- end timer -->
+
+        </div>
+      </div>
+
+      <div class="large-12 columns">
+        <div class="large-6 columns large-text-right small-text-center">
+          <h3 class="heading">LASCIA LA TUA EMAIL </h3>
+
+            <!-- start message validator -->
+            <div id="message-subscribe"></div>
+            <!-- end message validator -->
+
+            <!-- start newsletter form -->
+            <form id="subscribe" method="post" action="php/subscribe.php" name="subscribe">           
+                <input type="text" id="semail" name="YourEmail" placeholder="Enter your email" />                    
+                <button type="submit" class="submit-button" id="ssubmit">Subscribe</button>           
+            </form>
+            <!-- end newsletter form -->
+
+        </div>
+        <div class="large-6 columns large-text-left small-text-center">
+           <p class="heading bold">STAY SOCIAL WITH US:</p><br />
+              <ul class="social">
+                <li><a title="Twitter" href="https://twitter.com/romasportface" target="_blank"><i class="icon exit-social-twitter"></i></a></li>
+                <li><a title="Facebook" href="https://it-it.facebook.com/romasportface/" target="_blank"><i class="icon exit-social-facebook"></i></a></li>
+                <!-- <li><a title="Pinterest" href="#"><i class="icon exit-pinterest-circled"></i></a></li>
+                <li><a title="Linkedin" href="http://instagram.com/feelgoodsnowboard"><i class="icon exit-linkedin-circled"></i></a></li>
+                <li><a title="Instagram" href="http://instagram.com/feelgoodsnowboard"><i class="icon exit-social-instagram"></i></a></li>
+                <li><a title="Flickr" href="#"><i class="icon exit-flickr-circled"></i></a></li>
+                <li><a title="Github" href="#"><i class="fa fa-github"></i></a></li> -->
+              </ul>
+        </div>
+    </div>
+  </div>
+
+  </section>
+  <!-- end section -->
+
+    <div class="row">
+      <div class="large-12 large-centered columns text-center" id="twitter-news">
+        <i class="icon exit-social-twitter big"></i>
+
+        <!-- start twitter feed -->
+        <div id="tweet"></div>
+        <!-- end twitter feed -->
+
+      </div>
+    </div>
+    
+	<div class="row">
+      <div class="large-12 large-centered columns text-center" >
+    	<a class="twitter-timeline" href="https://twitter.com/romasportface/lists/calcio" data-widget-id="685054826619744256" data-tweet-limit="1">Tweets from https://twitter.com/romasportface/lists/calcio</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+     </div>
+    </div>  
+    
+  <div class="push"></div><!-- for sticky footer -->
+
+</div> 
+<!-- end wrapper -->
+<div class="md-overlay"></div><!-- the overlay element -->
+<!-- start footer -->
+<footer class="footer">
+    <div class="row">
+      <div class="large-12 columns text-center">
+
+        <p>2016 © Roma Sport Face. All rights reserved.</p>
+      </div>
+    </div>
+</footer>
+<!-- end footer -->
+
+<!-- start modal windows for contents -->
+
+
+
+<!-- start about modal -->
+
+<!-- end about modal -->
+
+
+
+<!-- end modal windows for contents -->
